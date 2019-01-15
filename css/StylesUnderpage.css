@@ -1,0 +1,669 @@
+* {
+  text-decoration: none;
+}
+body {
+  background-color: #fab5c88c;
+}
+.loggaa {
+  top: 1%;
+  right: 1%;
+
+  height: 60px;
+  position: absolute;
+  z-index: 1000;
+}
+.header {
+  width: 100%;
+  margin-bottom: -30;
+}
+.banderoll {
+  width: 100%;
+  height: 100%;
+  position: relative;
+  padding-bottom: 0px;
+}
+.logo {
+  left: 1400px;
+  top: 40px;
+  width: 70px;
+  height: 70px;
+  position: absolute;
+}
+.logo2 {
+  margin-left: 300px;
+  margin-right: 300px;
+  padding-bottom: 1px;
+  height: 30px;
+}
+
+#banner {
+  position: absolute;
+  top: 0px;
+  margin-left: 10px;
+  font-size: 80px;
+  color: #f4376d;
+  text-shadow: 5px 5px #591729;
+  font-family: "Luckiest Guy", cursive;
+}
+#submitbutton:hover {
+  background-color: #ffdfe8;
+}
+.formText {
+  font-family: "Merriweather Sans", sans-serif;
+}
+
+.main {
+  width: 100%;
+  height: 800px;
+  position: relative;
+  top: 0;
+  left: 0;
+  z-index: -2;
+  padding-top: 0px;
+  opacity: 0.5;
+  padding-bottom: 0px;
+}
+.main2 {
+  margin-top: 560px;
+  width: 600px;
+  height: 380px;
+  position: absolute;
+  top: 30px;
+  left: 27.5%;
+  float: center;
+  z-index: -1;
+}
+
+.parent {
+  position: relative;
+
+  margin-top: -1px;
+  margin-bottom: -20px;
+}
+
+nav {
+  z-index: 10;
+  width: 100%;
+  height: 63px;
+  background-color: #f4376d;
+  margin-top: -30px;
+}
+
+nav p {
+  z-index: 10;
+  font-family: arial;
+  color: #222;
+  font-size: 18px;
+  line-height: 55px;
+  float: right;
+}
+
+nav ul {
+  z-index: 10;
+  float: left;
+}
+
+nav ul li {
+  z-index: 10;
+  float: left;
+  list-style: none;
+  position: relative;
+}
+
+nav ul li a {
+  z-index: 10;
+  display: block;
+  font-family: "Spicy Rice", cursive;
+  text-transform: uppercase;
+  color: #222;
+  font-size: 22px;
+  padding: 8px 14px;
+}
+
+nav ul li ul {
+  z-index: 10;
+  display: none;
+  position: absolute;
+  background-color: #f4376d;
+  padding: 10px;
+  border-radius: 0px 4px 4px 4px;
+  margin-left: 15px;
+}
+nav ul li:hover ul {
+  z-index: 10;
+  display: block;
+}
+
+nav ul li ul li {
+  z-index: 10;
+  width: 180px;
+}
+
+nav ul li ul li a {
+  z-index: 10;
+  padding: 10px 14px;
+}
+
+nav ul li ul li a:hover {
+  z-index: 10;
+  background-color: #f8aec563;
+}
+nav ul li ul li ul {
+  display: none;
+
+  padding: 0;
+}
+
+nav ul li ul li ul li {
+  display: none;
+}
+nav ul li ul li:hover ul li {
+  display: block;
+  padding: 10px 14px;
+}
+
+nav ul li ul li ul a {
+  z-index: 10;
+  padding: 10px;
+  font-size: 18px;
+}
+
+.box {
+  height: 700px;
+  padding-top: 40px;
+  width: 100%;
+  position: absolute;
+}
+
+.section {
+  width: 25%;
+  margin-left: 0%;
+  margin-right: 75%;
+  border-radius: 25px;
+  background-color: #f88fab;
+  height: 650px;
+}
+.middle {
+  margin-left: 27.5%;
+  width: 45%;
+  background-color: #fc668e9f;
+  border-radius: 25px;
+  height: 650px;
+}
+.middle-text {
+  margin-left: 15px;
+  margin-right: 15px;
+
+  font-size: 22px;
+  font-family: "Merriweather Sans", sans-serif;
+  font-weight: 1000;
+}
+
+.aside {
+  margin-left: 75%;
+  width: 25%;
+  padding-right: 0px;
+  border-radius: 25px;
+  background-color: #f88fab;
+  height: 650px;
+}
+
+input {
+  box-shadow: none;
+}
+
+input:required:focus {
+  border: 1px solid red;
+  outline: none;
+}
+
+input:required:hover {
+  opacity: 1;
+}
+
+.aside-text {
+  font-size: 16px;
+  font-family: "Merriweather Sans", sans-serif;
+  font-weight: 1000;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+
+.fixed {
+  position: fixed;
+  top: 0;
+  margin-top: 0px;
+}
+
+.slides {
+  margin-top: 35px;
+  margin-bottom: 20px;
+  border-style: solid;
+  border-color: #f55688;
+  border-width: 2px;
+  width: 75%;
+  height: auto;
+  margin-left: 10%;
+}
+.floatleftdiv {
+  height: 300px;
+  float: left;
+  width: 31%;
+  text-align: center;
+  background-color: transparent;
+  padding: 5px;
+}
+.floatleft {
+  float: left;
+  width: 31%;
+  text-align: center;
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: 24px;
+  background-color: transparent;
+  color: #f4376d;
+  text-shadow: 1px 1px #591729;
+}
+.artister {
+  height: 100%;
+  max-height: 100%;
+  border-style: solid;
+  border-color: #f55688;
+  border-width: 2px;
+}
+
+aside {
+  text-align: center;
+}
+
+.news {
+  font-family: "Merriweather Sans", sans-serif;
+}
+
+.foot {
+  width: 100%;
+  height: 150px;
+  background-color: #f4376d;
+  margin-top: 1090px;
+}
+
+.foot-text {
+  font-family: "Merriweather Sans", sans-serif;
+  font-size: 22px;
+  margin-top: 5px;
+}
+
+#copy {
+  text-align: center;
+  padding-top: 11px;
+  font-weight: 1000;
+}
+.asdf {
+  width: 90%;
+  margin-left: 20px;
+  padding: 3%;
+}
+.nöjenbilder {
+  height: 100%;
+  max-height: 100%;
+}
+
+button[type="submit"] {
+  width: 100%;
+  background-color: #f4376d;
+  color: white;
+  padding: 14px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #ffdfe8;
+}
+input[type="password"] {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+textarea#nyhet {
+  height: 150px;
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  font-family: "Merriweather Sans", sans-serif;
+  resize: none;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+
+th,
+td {
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #ffd9e5;
+}
+tr:nth-child(odd) {
+  background-color: #fc91ad;
+}
+button {
+  width: 100%;
+  background-color: #f4376d;
+  color: white;
+  padding: 14px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+button:hover {
+  background-color: #fca2bc;
+}
+
+button.btn_modal {
+  background-color: #a06fa6;
+}
+button.btn_modal:hover {
+  background-color: #e7b1ee;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+  width: 100%; /* Full width */
+  height: 100%; /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: rgb(0, 0, 0); /* Fallback color */
+  background-color: rgba(0, 0, 0, 0.4); /* Black w/ opacity */
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #fefefe;
+  margin: 15% auto; /* 15% from the top and centered */
+  padding: 20px;
+  border: 1px solid #888;
+  width: 80%; /* Could be more or less, depending on screen size */
+}
+
+/* The Close Button */
+.close {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+}
+
+.close:hover,
+.close:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+.category-box {
+  background-color: #f7b3c6;
+  padding-left: 5px;
+  padding-top: 2px;
+  padding-bottom: 2px;
+  width: 49.3%;
+  height: 240px;
+  margin-bottom: 8px;
+}
+
+#spex_biljetter {
+  display: none;
+}
+
+.cat_header {
+  color: #a06fa6;
+  text-shadow: 1px 1px #591729;
+  font-size: 24px;
+  font-family: "Merriweather Sans", sans-serif;
+  font-weight: 1000;
+  text-align: left;
+  font-style: bold;
+}
+
+.Ticketp {
+  margin-left: 15px;
+  margin-right: 15px;
+  text-align: left;
+  font-size: 12px;
+  font-family: "Merriweather Sans", sans-serif;
+  font-weight: 1000;
+}
+
+@media screen and (max-width: 1024px) {
+  .banderoll {
+    display: none;
+  }
+
+  .header {
+    height: 130px;
+  }
+  .aside {
+    height: 850px;
+    width: 30%;
+    margin-left: 70%;
+  }
+  .section {
+    display: none;
+  }
+  .middle {
+    height: 850px;
+    width: 69%;
+    margin-left: 0%;
+  }
+  .foot {
+    margin-top: 1070px;
+  }
+  .main2 {
+    left: 6%;
+  }
+  nav ul li a {
+    padding: 8px 8px;
+  }
+  .artister {
+    height: 70%;
+    max-height: 100%;
+    border-style: solid;
+    border-color: #f55688;
+    border-width: 2px;
+  }
+}
+.FAQheader {
+  color: #f4376d;
+  text-shadow: 1px 1px #591729;
+  font-size: 34px;
+  font-family: "Merriweather Sans", sans-serif;
+  font-weight: 1000;
+  text-align: center;
+  font-style: bold;
+}
+.pictures {
+  width: 32%;
+  float: left;
+  margin-top: 35px;
+
+  border-style: solid;
+  border-color: #f55688;
+  border-width: 2px;
+
+  height: auto;
+  margin-left: 5px;
+}
+
+#map {
+  width: 100%;
+  border-style: solid;
+  border-color: #f55688;
+  border-width: 2px;
+}
+
+.FAQp {
+  margin-left: 15px;
+  margin-right: 15px;
+  text-align: center;
+  font-size: 14px;
+  font-family: "Merriweather Sans", sans-serif;
+  font-weight: 1000;
+}
+
+.FAQpcentered {
+  text-align: center;
+  font-size: 18px;
+  font-family: Sans-serif;
+  font-weight: 1000;
+  /*font-style: ;*/
+}
+.wall {
+  margin-left: 2%;
+  margin-right: 2%;
+  width: 96%;
+  background-color: #fc668e9f;
+  border-radius: 25px;
+  padding-bottom: 50px;
+  height: 900px;
+}
+
+.FAQh {
+  margin-left: 15px;
+  margin-right: 15px;
+  font-size: 24px;
+  font-family: "Merriweather Sans", sans-serif;
+  font-weight: 1000;
+}
+
+input[type="text"],
+select {
+  width: 99%;
+  padding: 12px 20px;
+  margin: 2px 0;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+}
+
+input[type="submit"] {
+  width: 100%;
+  background-color: #f4376d;
+  color: white;
+  padding: 14px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+input[type="submit"]:hover {
+  background-color: #eb6b8f;
+}
+
+.apply {
+  width: 100%;
+  background-color: #f4376d;
+  color: white;
+  padding: 14px;
+  margin: 8px 0;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.apply:hover {
+  background-color: #f7b3c6;
+}
+
+div {
+  border-radius: 5px;
+}
+
+@media screen and (max-width: 768px) {
+  .banderoll {
+    display: none;
+  }
+  .header {
+    height: 130px;
+  }
+  .aside {
+    display: none;
+  }
+  .section {
+    display: none;
+  }
+  .middle {
+    height: 550px;
+    width: 100%;
+    margin-left: 0%;
+  }
+  .foot {
+    margin-top: 1070px;
+  }
+  .main2 {
+    left: 6%;
+  }
+  nav ul li a {
+    padding: 8px 4px;
+  }
+
+  .middle-text {
+    margin-left: 5%;
+    margin-right: 5%;
+
+    font-size: 18px;
+    font-family: "Merriweather Sans", sans-serif;
+    font-weight: 1000;
+  }
+  .main2 {
+    margin-top: 70px;
+    width: 300px;
+    height: 180px;
+    position: absolute;
+    top: 60px;
+    left: 12%;
+    float: center;
+    z-index: -1;
+  }
+  .floatleftdiv {
+    height: 75px;
+    float: left;
+    width: 31%;
+    text-align: center;
+    background-color: transparent;
+    padding: 2px;
+  }
+  .floatleft {
+    float: left;
+    width: 31%;
+    text-align: center;
+    font-family: "Merriweather Sans", sans-serif;
+    font-size: 12px;
+    background-color: transparent;
+    color: #f4376d;
+    text-shadow: 1px 1px #591729;
+  }
+  .artister {
+    height: 100%;
+    max-height: 100%;
+    border-style: solid;
+    border-color: #f55688;
+    border-width: 2px;
+  }
+}
